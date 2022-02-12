@@ -11,10 +11,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Buttons used
 start_btn = [
-    [
-        InlineKeyboardButton('🎖 GitHub', url=Presets.SOURCE_URL),
-        InlineKeyboardButton('🔰 Support', url=Presets.SUPPORT_URL)
-    ],
+#     [
+#         InlineKeyboardButton('🎖 GitHub', url=Presets.SOURCE_URL),
+#         InlineKeyboardButton('🔰 Support', url=Presets.SUPPORT_URL)
+#     ],
     [
         InlineKeyboardButton('📸 Thumbnail', callback_data='view_btn'),
         InlineKeyboardButton('❓ Help', callback_data='help_btn')
