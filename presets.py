@@ -14,9 +14,9 @@ class Presets(object):
 <b>/subs</b><code> - to count subscribers</code>
 <b>/send</b><code>  - to broadcast (as reply)</code>
 
-<b>Join:</b><a href='https://t.me/RMProjects'><b> Support</b></a> | Repo\
-<a href='https://github.com/m4mallu/inline-tube-mate'><b> LINK</b></a>   
-    """
+     """
+# <b>Join:</b><a href='https://t.me/RMProjects'><b> Support</b></a> | Repo\
+#<a href='https://github.com/m4mallu/inline-tube-mate'><b> LINK</b></a>  
 
     OPTIONS_TXT = "<code>🔰 Select the option 🔰</code>"
     WELCOME_MSG = "<code>Hello...</code><b>{}</b> 👋\n<code>I'm a YouTube downloader bot with lot's of features. " \
@@ -26,13 +26,13 @@ class Presets(object):
     DESCRIPTION = "Duration: {} || {}"
     NOT_AUTH_TXT = "<b>Error : </b>\n\n<code>You are not Authorized to use this bot.</code>"
     DEFAULT_TITLE = "Inline Tube Mate Repository"
-    DEFAULT_THUMB_URL = "https://image.flaticon.com/icons/png/512/25/25231.png"
-    DEFAULT_LINK = "https://github.com/m4mallu/inline-tube-mate"
-    DEFAULT_DESCRIPTION = "Link: M4mallu | GitHub"
-    DEV_TITLE = "Developer Information"
-    DEV_THUMB_URL = "https://freepikpsd.com/media/2019/10/software-developer-icon-png-2-Transparent-Images.png"
-    DEV_LINK = "https://t.me/space4renjith"
-    DEV_DESCRIPTION = "Name: Renjith Mangal | Telegram"
+    DEFAULT_THUMB_URL = "https://www.bloggeron.net/wp-content/uploads/2021/04/Download-Videos-from-YouTube.jpg"
+    #DEFAULT_LINK = "https://github.com/m4mallu/inline-tube-mate"
+    #DEFAULT_DESCRIPTION = "Link: M4mallu | GitHub"
+    #DEV_TITLE = "Developer Information"
+    #DEV_THUMB_URL = "https://freepikpsd.com/media/2019/10/software-developer-icon-png-2-Transparent-Images.png"
+    #DEV_LINK = "https://t.me/space4renjith"
+    #DEV_DESCRIPTION = "Name: Renjith Mangal | Telegram"
     SHARE_BUTTON_TEXT = "Hi.. 👋\nCheckout : @{username}\nFor search and download TouTube Videos"
     SAVED_THUMB = "<b>✅ Thumbnail Saved Successfully</b>\n<code>This file will be used in next YouTube " \
                   "downloads until you clear it !</code> "
@@ -45,8 +45,8 @@ class Presets(object):
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     FINISHED_PROGRESS_STR = "◼️"
     UN_FINISHED_PROGRESS_STR = "◻️"
-    SOURCE_URL = "https://github.com/m4mallu/inline-tube-mate"
-    SUPPORT_URL = "https://t.me/RMProjects"
+    #SOURCE_URL = "https://github.com/m4mallu/inline-tube-mate"
+    #SUPPORT_URL = "https://t.me/RMProjects"
     CHECKING_LINK = "⏳ <code>Analyzing your link...</code>"
     DOWNLOAD_START = "⬇️ <code>Download Initiated...</code>"
     UPLOAD_START = "⬆️ <code>Upload Initiated...</code>"
@@ -73,8 +73,8 @@ class Presets(object):
                        "link in your force subscribe chat.</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<b>{}</b>\n\n<b>DL Credits: </b><b><a " \
-                             "href='https://github.com/m4mallu'> M4Mallu</a></b> "
+    #CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<b>{}</b>\n\n<b>DL Credits: </b><b><a " \
+                            # "href='https://github.com/m4mallu'> M4Mallu</a></b> "
     RCHD_TG_API_LIMIT = "Detected File Size: {}\n\nSorry. But, I cannot upload files " \
                         "greater than 1.95GB due to Telegram API limitations."
     AD_STRING_TO_REPLACE = "please report this issue on https://yt-dl.org/bug . Make sure you are using the " \
