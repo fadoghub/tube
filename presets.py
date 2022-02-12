@@ -73,8 +73,8 @@ class Presets(object):
                        "link in your force subscribe chat.</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    #CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<b>{}</b>\n\n<b>DL Credits: </b><b><a " \
-                            # "href='https://github.com/m4mallu'> M4Mallu</a></b> "
+    CUSTOM_CAPTION_UL_FILE = "\xad \xad\n<b>{}</b>\n\n<b>DL Credits: </b><b><a " \
+                             "href=''> y2downbot</a></b> "
     RCHD_TG_API_LIMIT = "Detected File Size: {}\n\nSorry. But, I cannot upload files " \
                         "greater than 1.95GB due to Telegram API limitations."
     AD_STRING_TO_REPLACE = "please report this issue on https://yt-dl.org/bug . Make sure you are using the " \
