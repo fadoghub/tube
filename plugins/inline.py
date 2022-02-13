@@ -61,12 +61,12 @@ async def inline_search(bot, query: InlineQuery):
                 description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
-    if string and id != 5154577384 :
+    if string and query.inline_message_id != 5154577384 :
         switch_pm_text = Presets.RESULTS_TXT
         try:
             await query.answer(
                 results=[],
-                switch_pm_text="Click here to proceed...",
+                switch_pm_text="Tap here to proceed...",
                 switch_pm_parameter="start"
             )
         except Exception:
