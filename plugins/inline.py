@@ -70,7 +70,7 @@ async def inline_search(bot, query: InlineQuery):
             )
         except Exception:
             pass
-     else:
+    else:
         switch_pm_text = Presets.NO_RESULTS
         try:
             await query.answer(
