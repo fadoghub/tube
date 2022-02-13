@@ -22,7 +22,7 @@ else:
 
 
 @Client.on_inline_query()
-async def inline_search(bot, query: InlineQuery, message):
+async def inline_search(bot, query: InlineQuery):
     await add_user(query.from_user.id)
     me = []
     try:
