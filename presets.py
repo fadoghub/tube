@@ -2,17 +2,13 @@ class Presets(object):
     HELP_TEXT = """
 <b><u>Inline Tube Mate Help:</u></b>
 <code>
+🔰 Choose \'Search Inline\' or paste any YouTube URL to start the bot activity.
+
 🔰 Send any image to set up a permanent thumbnail for the downloading videos.
 
 🔰 To delete the previously set thumbnail, select the</code> <b>/help</b> <code>and click on the delete button.
 
 🔰 If no custom thumbnails are available, the default video thumbnail will be used in the downloading videos.
-
-🔰 Search Inline or paste any YouTube URL to start the bot activity.
-
-🔰 SUDO USERS can broadcast the messages to all the users of the bot. Use:</code>
-<b>/subs</b><code> - to count subscribers</code>
-<b>/send</b><code>  - to broadcast (as reply)</code>
 
      """
 # <b>Join:</b><a href='https://t.me/RMProjects'><b> Support</b></a> | Repo\
