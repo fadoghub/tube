@@ -60,7 +60,7 @@ async def inline_search(bot, query: InlineQuery):
                 description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
-   if string:
+    if string:
         switch_pm_text = Presets.RESULTS_TXT
         try:
             await query.answer(
@@ -70,7 +70,7 @@ async def inline_search(bot, query: InlineQuery):
             )
         except Exception:
             pass
-    else:
+     else:
         switch_pm_text = Presets.NO_RESULTS
         try:
             await query.answer(
