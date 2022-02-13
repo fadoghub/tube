@@ -60,7 +60,7 @@ async def inline_search(bot, query: InlineQuery, message):
                 description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
-    if string and message.message_id :
+    if string and id== query.from_user.id :
         try:
             await query.answer(
                 results=[],
