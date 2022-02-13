@@ -61,7 +61,7 @@ async def inline_search(bot, query: InlineQuery):
                 description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
-    if string and query.message.chat_id != 5154577384 :
+    if string and id != 5154577384 :
         switch_pm_text = Presets.RESULTS_TXT
         try:
             await query.answer(
@@ -71,7 +71,7 @@ async def inline_search(bot, query: InlineQuery):
             )
         except Exception:
             pass    
-    if string:
+    elif string:
         switch_pm_text = Presets.RESULTS_TXT
         try:
             await query.answer(
