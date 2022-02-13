@@ -1,12 +1,12 @@
 class Presets(object):
     HELP_TEXT = """
 <b><u>Y2Down youtube downloader Help:</u></b>
-<code>
+
 🔰 Choose \'Search Inline\' or paste any YouTube URL to start the bot activity.
 
 🔰 Send any image to set up a permanent thumbnail for the downloading videos.
 
-🔰 To delete the previously set thumbnail, select the</code> <b>/help</b> <code>and click on the delete button.
+🔰 To delete the previously set thumbnail, select the <b>/help</b> and click on the delete button.
 
 🔰 If no custom thumbnails are available, the default video thumbnail will be used in the downloading videos.
     ♥♥♥
@@ -14,9 +14,9 @@ class Presets(object):
 # <b>Join:</b><a href='https://t.me/RMProjects'><b> Support</b></a> | Repo\
 #<a href='https://github.com/m4mallu/inline-tube-mate'><b> LINK</b></a>  
 
-    OPTIONS_TXT = "<code>🔰 Select the option 🔰</code>"
-    WELCOME_MSG = "<code>Hello...</code><b>{}</b> 👋\n<code>I'm a YouTube downloader bot with lot's of features. " \
-                  "Search inline for videos and click to proceed for download.</code>"
+    OPTIONS_TXT = "🔰 Select the option 🔰"
+    WELCOME_MSG = "Hello...<b>{}</b> 👋\nI'm a YouTube downloader bot with lot's of features. " \
+                  "Search inline for videos and click to proceed for download."
     RESULTS_TXT = "👀 Results:(Tap here to open the bot)"
     NO_RESULTS = "❌ No Results, Tap here for help"
     DESCRIPTION = "Duration: {} || {}"
