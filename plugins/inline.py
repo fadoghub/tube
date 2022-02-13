@@ -69,7 +69,7 @@ async def inline_search(bot, query: InlineQuery):
                 switch_pm_text="Tap here to proceed...",
                 switch_pm_parameter="start"
             )
-            global i = 1
+            i = 1
         except Exception:
             pass    
     elif string:
