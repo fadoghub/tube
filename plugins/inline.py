@@ -15,7 +15,7 @@ from pyrogram.errors import FloodWait
 from support.extract import youtube_search
 from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
 
-i =0
+i = 0
 if bool(os.environ.get("ENV", False)):
     from sample_config import Config
 else:
@@ -61,6 +61,7 @@ async def inline_search(bot, query: InlineQuery):
                 description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
+    global i    
     if string and i != 1 :
         try:
             await query.answer(
@@ -68,7 +69,7 @@ async def inline_search(bot, query: InlineQuery):
                 switch_pm_text="Tap here to proceed...",
                 switch_pm_parameter="start"
             )
-            i +=1
+            global i = 1
         except Exception:
             pass    
     elif string:
