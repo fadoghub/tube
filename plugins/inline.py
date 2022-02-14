@@ -35,15 +35,15 @@ async def inline_search(bot, query: InlineQuery):
     defaults = await get_info(me.username)
     results.extend(defaults)
     #
-    try:
-        if Config.AUTH_USERS and (id not in Config.AUTH_USERS):
-            await query.answer(results=results,
-                               switch_pm_text=Presets.NOT_AUTH_TXT,
-                               switch_pm_parameter="help"
-                               )
-            return
-    except FloodWait as e:
-        await asyncio.sleep(e.x)
+#     try:
+#         if Config.AUTH_USERS and (id not in Config.AUTH_USERS):
+#             await query.answer(results=results,
+#                                switch_pm_text=Presets.NOT_AUTH_TXT,
+#                                switch_pm_parameter="help"
+#                                )
+#             return
+#     except FloodWait as e:
+#         await asyncio.sleep(e.x)
     #
     search = query.query.strip()
     string = await youtube_search(search)
